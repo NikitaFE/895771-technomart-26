@@ -15,7 +15,7 @@
             </a>
             <p>Поиск:</p>
             <a href="">Закладки: 0</a>
-            <a href="">Корзина: 0</a>
+            <a href="">Корзина: 10</a>
             <a href="">Оформить заказ</a>
         </section>
         <section>
@@ -29,8 +29,9 @@
                 <p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
             </div>
             <ul>
-                <li><a href="">Войти</a></li>
-                <li><a href="">Регистрация</a></li>
+                <li><a href="">Равшан Джамшутович</a></li>
+                <li><a href="">Мои заказы</a></li>
+                <li><a href="">Личный кабинет</a></li>
             </ul>
         </section>
         <nav>
@@ -57,7 +58,48 @@
                 <li>Перфораторы</li>
             </ul>
         </nav>
-        <!-- Form -->
+        
+        <section>
+            <h2>Фильтр</h2>
+
+            <form action="https://echo.htmlacaademy.ru" method="post">
+                <fieldset>
+                    <legend>Производители:</legend>
+                    <p>
+                        <input id="bosch" name="bosch" type="checkbox">
+                        <label for="bosch">Bosch</label>
+                    </p>
+                    <p>
+                        <input id="interskol" name="interskol" type="checkbox">
+                        <label for="interskol">Интерскол</label>
+                    </p>
+                    <p>
+                        <input id="makita" name="makita" type="checkbox">
+                        <label for="makita">Makita</label>
+                    </p>
+                    <p>
+                        <input id="dewalt" name="dewalt" type="checkbox">
+                        <label for="dewalt">Dewalt</label>
+                    </p>
+                    <p>
+                        <input id="hitachi" name="hitachi" type="checkbox">
+                        <label for="hitachi">Hitachi</label>
+                    </p>
+                </fieldset>
+                <fieldset>
+                    <legend>Питание:</legend>
+                    <p>
+                        <input name="power" id="rechargeable" type="radio">
+                        <label for="rechargeable">Аккумуляторные</label>
+                    </p>
+                    <p>
+                        <input name="power" id="mains" type="radio">
+                        <label for="mains">Сетевые</label>
+                    </p>
+                </fieldset>
+            </form>
+        </section>
+
         <section>
             <h2>Список товаров</h2>
 
@@ -143,9 +185,9 @@
                 <br> Все права защищены
             </p>
             <ul>
-                <li><a href="">vkontakte</a></li>
-                <li><a href="">facebook</a></li>
-                <li><a href="">instagram</a></li>
+                <li><a href="" aria-label="Техномарт во Вконтакте">vkontakte</a></li>
+                <li><a href="" aria-label="Техномарт на Фейсбук">facebook</a></li>
+                <li><a href="" aria-label="Техномарт в Инстаграм">instagram</a></li>
             </ul>
             <p>
                 Обратная связь:

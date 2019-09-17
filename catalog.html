@@ -52,7 +52,7 @@
 
         <nav>
             <ul>
-                <li><a href="index.html">Главная</a></li>
+                <li><a href="index.html" aria-label="Главная">Главная</a></li>
                 <li><a href="">Каталог</a></li>
                 <li><a href="">Инструмент</a></li>
                 <li>Перфораторы</li>
@@ -60,9 +60,22 @@
         </nav>
         
         <section>
-            <h2>Фильтр</h2>
+            <h2>Фильтр:</h2>
 
             <form action="https://echo.htmlacaademy.ru" method="post">
+                <h3>Цена:</h3>
+                <div>
+                    <div>
+                        <span>
+                            <button type="button" aria-label="Установить минимальную цену">Установить минимальную цену</button>
+                            <span></span>
+                            <button type="button" aria-label="Установить максимальную цену">Установить максимальную цену</button>
+                        </span>
+                    </div>
+                    <input type="text" id="min" name="min" value="0">
+                    <span>-</span>
+                    <input type="text" id="max" name="max" value="30000">
+                </div>
                 <fieldset>
                     <legend>Производители:</legend>
                     <ul>
@@ -123,6 +136,16 @@
         <section>
             <h2 class="visually-hidden">Список товаров</h2>
 
+            <div>
+                <h2>Сортировка:</h2>
+                <ul>
+                    <li><a href="">По цене</a></li>
+                    <li><a href="">По типу</a></li>
+                    <li><a href="">По функционалу</a></li>
+                    <li><a href="" aria-label="По возрастанию">По возрастанию</a></li>
+                    <li><a href="" aria-label="По убыванию">По убыванию</a></li>
+                </ul>
+            </div>
             <ul>
                 <li>
                     <h3>Перфоратор BOSCH BFG 3000</h3>

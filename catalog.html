@@ -13,7 +13,10 @@
             <a href="index.html">
                 <img src="img/logo-technomart.svg" alt="Логотип магазина 'Техномарт'">
             </a>
-            <p>Поиск:</p>
+            <form action="https://echo.htmlacaademy.ru" method="get">
+                <button type="submit">Искать</button>
+                <input type="text" placeholder="Поиск:">
+            </form>
             <a href="">Закладки: 0</a>
             <a href="">Корзина: 10</a>
             <a href="">Оформить заказ</a>
@@ -52,7 +55,7 @@
 
         <nav>
             <ul>
-                <li><a href="index.html" aria-label="Главная">Главная</a></li>
+                <li><a href="index.html">Главная</a></li>
                 <li><a href="">Каталог</a></li>
                 <li><a href="">Инструмент</a></li>
                 <li>Перфораторы</li>
@@ -62,20 +65,20 @@
         <section>
             <h2>Фильтр:</h2>
 
-            <form action="https://echo.htmlacaademy.ru" method="post">
-                <h3>Цена:</h3>
-                <div>
+            <form action="https://echo.htmlacaademy.ru" method="get">
+                <fieldset>
+                    <legend>Цены:</legend>
                     <div>
-                        <span>
-                            <button type="button" aria-label="Установить минимальную цену">Установить минимальную цену</button>
-                            <span></span>
-                            <button type="button" aria-label="Установить максимальную цену">Установить максимальную цену</button>
-                        </span>
+                        <div class="range-slider">
+                            <span class="min-handle">Установить минимальную цену</span>
+                            <span class="green-line"></span>
+                            <span class="max-handle">Установить максимальную цену</span>
+                        </div>
                     </div>
                     <input type="text" id="min" name="min" value="0">
                     <span>-</span>
                     <input type="text" id="max" name="max" value="30000">
-                </div>
+                </fieldset>
                 <fieldset>
                     <legend>Производители:</legend>
                     <ul>
@@ -137,26 +140,23 @@
             <h2 class="visually-hidden">Список товаров</h2>
 
             <div>
-                <h2>Сортировка:</h2>
+                <span>Сортировка:</span>
                 <ul>
                     <li><a href="">По цене</a></li>
                     <li><a href="">По типу</a></li>
                     <li><a href="">По функционалу</a></li>
-                    <li><a href="" aria-label="По возрастанию">По возрастанию</a></li>
-                    <li><a href="" aria-label="По убыванию">По убыванию</a></li>
+                    <li><a href="">По возрастанию</a></li>
+                    <li><a href="">По убыванию</a></li>
                 </ul>
             </div>
             <ul>
                 <li>
-                    <a>
-                        <h3>
-                            <span>Перфоратор BOSCH</span> 
-                            <span>BFG 3000</span>
-                        </h3>
-                        <p>
-                            <img src="img/catalog-item-1.jpg" width="218" height="170" alt="Перфоратор BOSCH BFG 3000">
-                        </p>
+                    <a href="">
+                        <h3>Перфоратор BOSCH BFG 3000</h3>
                     </a>
+                    <p>
+                        <img src="img/catalog-item-1.jpg" width="218" height="170" alt="Перфоратор BOSCH BFG 3000">
+                    </p>
                     <div>
                         <a href="">Купить</a>
                         <a href="">В закладки</a>
@@ -165,15 +165,12 @@
                     <span>15500 Р.</span>
                 </li>
                 <li>
-                    <a>
-                        <h3>
-                            <span>Перфоратор BOSCH</span> 
-                            <span>BFG 6000</span>
-                        </h3>
-                        <p>
-                            <img src="img/catalog-item-2.jpg" width="218" height="170" alt="Перфоратор BOSCH BFG 6000">
-                        </p>
+                    <a href="">
+                        <h3>Перфоратор BOSCH BFG 6000</h3>
                     </a>
+                    <p>
+                        <img src="img/catalog-item-2.jpg" width="218" height="170" alt="Перфоратор BOSCH BFG 6000">
+                    </p>
                     <div>
                         <a href="">Купить</a>
                         <a href="">В закладки</a>
@@ -182,15 +179,12 @@
                     <span>25500 Р.</span>
                 </li>
                 <li>
-                    <a>
-                        <h3>
-                            <span>Перфоратор BOSCH</span> 
-                            <span>BFG 2000</span>
-                        </h3>
-                        <p>
-                            <img src="img/catalog-item-1.jpg" width="218" height="170" alt="Перфоратор BOSCH BFG 2000">
-                        </p>
+                    <a href="">
+                        <h3>Перфоратор BOSCH BFG 2000</h3>
                     </a>
+                    <p>
+                        <img src="img/catalog-item-1.jpg" width="218" height="170" alt="Перфоратор BOSCH BFG 2000">
+                    </p>
                     <div>
                         <a href="">Купить</a>
                         <a href="">В закладки</a>
@@ -255,9 +249,9 @@
                 <br> Все права защищены
             </p>
             <ul>
-                <li><a href="" aria-label="Техномарт во Вконтакте">vkontakte</a></li>
-                <li><a href="" aria-label="Техномарт на Фейсбук">facebook</a></li>
-                <li><a href="" aria-label="Техномарт в Инстаграм">instagram</a></li>
+                <li><a href="" aria-label="Техномарт во Вконтакте">Техномарт во Вконтакте</a></li>
+                <li><a href="" aria-label="Техномарт на Фейсбук">Техномарт на Фейсбук</a></li>
+                <li><a href="" aria-label="Техномарт в Инстаграм">Техномарт в Инстаграм</a></li>
             </ul>
             <p>
                 Обратная связь:

@@ -1,0 +1,326 @@
+body {
+	margin: 0;
+  padding: 0;
+
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #fff;
+}
+
+img {
+
+}
+
+a {
+	text-decoration: none;
+}
+
+.button {
+  font: inherit;
+
+  text-align: center;
+  vertical-align: middle;
+  
+  border: none;
+}
+
+.header {
+	background-color: #f3f7f9;
+}
+
+.header-top {
+	background-color: #293449;
+}
+
+.header-logo {
+	background-color: #ee3643;
+}
+
+.header-logo:hover {
+	background-color: #ca2c37;
+}
+
+.header-logo:active {
+	background-color: #ba2732;
+}
+
+.search-button {
+	text-indent: -9999px;
+
+	background-color: transparent;
+	border: none;
+}
+
+.search-field {
+	font-size: 17px;
+	line-height: 18px;
+	color: #000;
+
+	background-color: transparent;
+	border: none;
+}
+
+.search-field:focus {
+	background-color: #fff;
+	outline: none;
+}
+
+.search-field::-webkit-input-placeholder {
+	font-size: 17px;
+	line-height: 18px;
+	color: #fff;
+}
+
+.search-field::-moz-placeholder {
+	font-size: 17px;
+	line-height: 18px;
+	color: #fff;
+}
+
+.search-field:-moz-placeholder {
+	font-size: 17px;
+	line-height: 18px;
+	color: #fff;
+}
+
+.search-field:-ms-input-placeholder {
+	font-size: 17px;
+	line-height: 18px;
+	color: #fff;
+}
+
+.header-link {
+	font-size: 17px;
+	line-height: 18px;
+	color: #fff;
+}
+
+.header-link:hover {
+	background-color: #212a3a;
+}
+
+.header-link:active {
+	background-color: #161d29;
+	color: rgba(255,255,255,0.6);
+}
+
+.header-link:last-child {
+	background-color: #63a63e;
+}
+
+.header-link:last-child:hover {
+	background-color: #5fbb2d;
+}
+
+.header-link:last-child:active {
+	background-color: #518534;
+	color: rgba(255,255,255,0.5);
+}
+
+.advertising-text {
+	font-size: 16px;
+	line-height: 23px;
+	font-style: italic;
+	color: #ee3643;
+}
+
+.header-phone {
+	font-size: 21px;
+	line-height: 21px;
+	color: #ee3643;
+}
+
+.header-address {
+	color: #000;
+}
+
+.profile-buttons {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.profile-button {
+	font-size: 21px;
+	line-height: 21px;
+	color: #000;
+
+	background-color: #fff;
+}
+
+.profile-button:hover {
+	color: #ee3643;
+}
+
+.profile-button:active {
+	color: rgba(0,0,0,0.3);
+}
+
+.nav-list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+
+	background-color: #32425c;
+}
+
+.nav-link {
+	font-size: 17px;
+	line-height: 17px;
+	color: #fff;
+}
+
+
+.nav-link:hover {
+	background-color: #293449;
+}
+
+.nav-link:active {
+	background-color: #1d2739;
+	color: rgba(255,255,255,0.5);
+}
+
+.about-title,
+.contact-title {
+	font-size: 30px;
+	line-height: 30px;
+	color: #000;
+}
+
+.about-text,
+.contact-text {
+	font-family: "PT Sans", "Arial", sans-serif;
+	font-size: 13px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #000;
+}
+
+.partners {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.partner {
+	font-size: 18px;
+	line-height: 20px;
+	color: #000;
+}
+
+.about-link,
+.contact-link {
+	font-size: 14px;
+	line-height: 18px;
+	color: #fff;
+	text-transform: uppercase;
+
+	background-color: #ee3643;
+}
+
+.about-link:hover,
+.contact-link:hover {
+	background-color: #ca2c37;
+}
+
+.about-link:active,
+.contact-link:active {
+	background-color: #ba2732;
+}
+
+.map-icon {
+	background-color: #f4f2ed;
+}
+
+.footer {
+	background-color: #32425c;
+}
+
+.footer-logo {
+	background-color: #ee3643;
+}
+
+.footer-logo:hover {
+	background-color: #ca2c37;
+}
+
+.footer-logo:active {
+	background-color: #ba2732;
+}
+
+.footer-nav,
+.footer-offers {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.footer-link {
+	font-size: 18px;
+	line-height: 24px;
+	color: #fff;
+}
+
+.footer-link:hover {
+	text-decoration: underline;
+}
+
+.footer-link:active {
+	opacity: 0.5;
+}
+
+.footer-contacts {
+	font-size: 18px;
+	line-height: 24px;
+}
+
+.footer-contacts a {
+	color: #fff;
+}
+
+.footer-offers .footer-link {
+	color: #ffd180;
+}
+
+.copyright {
+	background-color: #293449;
+}
+
+.copy-text {
+	font-size: 16px;
+	line-height: 18px;
+}
+
+.social {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+
+.social-link {
+	background-color: #212a3a;
+}
+
+.social-link:hover,
+.social-link:active {
+	background-color: #ee3643;
+}
+
+.copy-link {
+	font-size: 16px;
+	line-height: 18px;
+}
+
+.copy-link a {
+	color: #ffd180;
+}
+
+.copy-link a:hover {
+	text-decoration: underline;
+}
+
+.copy-link a:active {
+	color: #ee3643;
+}

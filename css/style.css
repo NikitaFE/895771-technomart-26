@@ -1,29 +1,25 @@
 body {
-	margin: 0;
-  padding: 0;
+ 	margin: 0;
+ 	padding: 0;
 
-  font-family: "Cuprum", Arial, sans-serif;
-  font-size: 14px;
-  line-height: 24px;
-  font-weight: 400;
-  color: #fff;
-}
-
-img {
-
+ 	font-family: "Cuprum", Arial, sans-serif;
+ 	font-size: 14px;
+ 	line-height: 24px;
+ 	font-weight: 400;
+ 	color: #fff;
 }
 
 a {
-	text-decoration: none;
+ 	text-decoration: none;
 }
 
 .button {
-  font: inherit;
+ 	font: inherit;
 
-  text-align: center;
-  vertical-align: middle;
+ 	text-align: center;
+ 	vertical-align: middle;
   
-  border: none;
+ 	border: none;
 }
 
 .header {
@@ -155,6 +151,35 @@ a {
 }
 
 .profile-button:active {
+	color: rgba(0,0,0,0.3);
+}
+
+.profile-name:hover {
+	color: #000;
+}
+
+.profile-name:active {
+	color: rgba(0,0,0,0.3);
+}
+
+.profile-links {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.profile-link {
+	font-size: 16px;
+	line-height: 18px;
+	color: #32425c;
+	text-decoration: underline;
+}
+
+.profile-link:hover {
+	color: #ee3643;
+}
+
+.profile-link:active {
 	color: rgba(0,0,0,0.3);
 }
 
@@ -324,3 +349,111 @@ a {
 .copy-link a:active {
 	color: #ee3643;
 }
+
+.catalog-title {
+	font-size: 30px;
+	line-height: 30px;
+	color: #32425c;
+	text-transform: uppercase;
+
+	background-color: #f2f6f8;
+}
+
+.breadcrumb {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.breadcrumb li {
+	font-family: "PT Sans", "Arial", sans-serif;
+	font-size: 13px;
+	line-height: 18px;
+	color: #000;
+	text-transform: uppercase;
+}
+
+.breadcrumb a {
+	color: #000;
+}
+
+.filter,
+.product-list {
+	font-family: "PT Sans", "Arial", sans-serif;
+}
+
+.fieldset-title {
+	font-size: 17px;
+	height: 30px;
+	font-weight: 700;
+	color: #000;
+	text-transform: uppercase;
+}
+
+.param-title {
+	font-size: 15px;
+	line-height: 20px;
+	color: #000;
+	text-transform: uppercase;
+}
+
+.filter-submit {
+	font-size: 13px;
+	line-height: 18px;
+	text-transform: uppercase;
+
+	background-color: transparent;
+}
+
+.card-title {
+	font-size: 18px;
+	line-height: 20px;
+	color: #000;
+}
+
+.card-sale,
+.card-price {
+	font-size: 17px;
+	line-height: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.card-sale {
+	color: #999999;
+	text-decoration: line-through;
+}
+
+.card-price {
+	background-color: #ee3643;
+}
+
+.card-buy,
+.card-bookmark {
+	font-family: "Cuprum", Arial, sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	text-transform: uppercase;
+}
+
+.card-buy {
+	background-color: #63a63e;
+	color: #fff;
+}
+
+.card-buy:hover {
+	background-color: #5fbb2d;
+}
+
+.card-buy:active {
+	background-color: #518534;
+}
+
+.card-bookmark {
+	color: #32425c;
+}
+
+.card-bookmark:active {
+	opacity: 0.3;
+}
+	

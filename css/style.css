@@ -6,7 +6,7 @@ body {
  	font-size: 14px;
  	line-height: 24px;
  	font-weight: 400;
- 	color: #fff;
+ 	color: #ffffff;
 }
 
 a {
@@ -17,7 +17,6 @@ a {
  	font: inherit;
 
  	text-align: center;
- 	vertical-align: middle;
   
  	border: none;
 }
@@ -42,55 +41,48 @@ a {
 	background-color: #ba2732;
 }
 
-.search-button {
-	text-indent: -9999px;
-
-	background-color: transparent;
-	border: none;
-}
-
 .search-field {
 	font-size: 17px;
 	line-height: 18px;
-	color: #000;
+	color: #000000;
 
 	background-color: transparent;
 	border: none;
 }
 
 .search-field:focus {
-	background-color: #fff;
+	background-color: #ffffff;
 	outline: none;
 }
 
 .search-field::-webkit-input-placeholder {
 	font-size: 17px;
 	line-height: 18px;
-	color: #fff;
+	color: #ffffff;
 }
 
 .search-field::-moz-placeholder {
 	font-size: 17px;
 	line-height: 18px;
-	color: #fff;
+	color: #ffffff;
 }
 
 .search-field:-moz-placeholder {
 	font-size: 17px;
 	line-height: 18px;
-	color: #fff;
+	color: #ffffff;
 }
 
 .search-field:-ms-input-placeholder {
 	font-size: 17px;
 	line-height: 18px;
-	color: #fff;
+	color: #ffffff;
 }
 
 .header-link {
 	font-size: 17px;
 	line-height: 18px;
-	color: #fff;
+	color: #ffffff;
 }
 
 .header-link:hover {
@@ -129,7 +121,7 @@ a {
 }
 
 .header-address {
-	color: #000;
+	color: #000000;
 }
 
 .profile-buttons {
@@ -141,7 +133,7 @@ a {
 .profile-button {
 	font-size: 21px;
 	line-height: 21px;
-	color: #000;
+	color: #000000;
 
 	background-color: #fff;
 }
@@ -155,7 +147,7 @@ a {
 }
 
 .profile-name:hover {
-	color: #000;
+	color: #000000;
 }
 
 .profile-name:active {
@@ -194,7 +186,7 @@ a {
 .nav-link {
 	font-size: 17px;
 	line-height: 17px;
-	color: #fff;
+	color: #ffffff;
 }
 
 
@@ -211,7 +203,7 @@ a {
 .contact-title {
 	font-size: 30px;
 	line-height: 30px;
-	color: #000;
+	color: #000000;
 }
 
 .about-text,
@@ -220,7 +212,7 @@ a {
 	font-size: 13px;
 	line-height: 24px;
 	font-weight: 400;
-	color: #000;
+	color: #000000;
 }
 
 .partners {
@@ -232,14 +224,14 @@ a {
 .partner {
 	font-size: 18px;
 	line-height: 20px;
-	color: #000;
+	color: #000000;
 }
 
 .about-link,
 .contact-link {
 	font-size: 14px;
 	line-height: 18px;
-	color: #fff;
+	color: #ffffff;
 	text-transform: uppercase;
 
 	background-color: #ee3643;
@@ -285,7 +277,7 @@ a {
 .footer-link {
 	font-size: 18px;
 	line-height: 24px;
-	color: #fff;
+	color: #ffffff;
 }
 
 .footer-link:hover {
@@ -302,7 +294,7 @@ a {
 }
 
 .footer-contacts a {
-	color: #fff;
+	color: #ffffff;
 }
 
 .footer-offers .footer-link {
@@ -369,12 +361,12 @@ a {
 	font-family: "PT Sans", "Arial", sans-serif;
 	font-size: 13px;
 	line-height: 18px;
-	color: #000;
+	color: #000000;
 	text-transform: uppercase;
 }
 
 .breadcrumb a {
-	color: #000;
+	color: #000000;
 }
 
 .filter,
@@ -386,14 +378,14 @@ a {
 	font-size: 17px;
 	height: 30px;
 	font-weight: 700;
-	color: #000;
+	color: #000000;
 	text-transform: uppercase;
 }
 
 .param-title {
 	font-size: 15px;
 	line-height: 20px;
-	color: #000;
+	color: #000000;
 	text-transform: uppercase;
 }
 
@@ -408,7 +400,7 @@ a {
 .card-title {
 	font-size: 18px;
 	line-height: 20px;
-	color: #000;
+	color: #000000;
 }
 
 .card-sale,
@@ -438,7 +430,7 @@ a {
 
 .card-buy {
 	background-color: #63a63e;
-	color: #fff;
+	color: #ffffff;
 }
 
 .card-buy:hover {

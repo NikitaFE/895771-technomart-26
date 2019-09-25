@@ -10,8 +10,6 @@ body {
 }
 
 html {
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
 
@@ -189,7 +187,7 @@ a {
 }
 
 .header-contact {
-	margin-right: 51px;
+	margin-right: 69px;
 }
 
 .header-phone {
@@ -503,20 +501,20 @@ li:last-child .profile-button {
 	color: #ffd180;
 }
 
-.copyright {
+.footer-bottom {
 	background-color: #293449;
 }
 
-.copyright-inner {
+.footer-inner {
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
 	min-height: 107px;
 }
 
-.copy-text {
+.copyright {
 	margin: 0;
-	margin-right: 160px;
+	margin-right: 163px;
 	padding-left: 1px;
 
 	font-size: 16px;
@@ -527,7 +525,7 @@ li:last-child .profile-button {
 	display: flex;
 	justify-content: space-between;
 	margin: 0;
-	margin-right: 119px;
+	margin-right: 120px;
 	padding: 0;
 	padding-top: 4px;
 	list-style: none;
@@ -553,7 +551,12 @@ li:last-child .social-link {
 	background-color: #ee3643;
 }
 
-.copy-link {
+.feedback {
+	display: flex;
+	justify-content: space-between;
+}
+
+.feedback-link {
 	margin-right: 49px;
 	width: 140px;
 
@@ -561,20 +564,20 @@ li:last-child .social-link {
 	line-height: 18px;
 }
 
-.copy-link:last-child {
+.feedback-link:last-child {
 	margin-right: 0;
 	width: 110px;
 }
 
-.copy-link a {
+.feedback-link a {
 	color: #ffd180;
 }
 
-.copy-link a:hover {
+.feedback-link a:hover {
 	text-decoration: underline;
 }
 
-.copy-link a:active {
+.feedback-link a:active {
 	color: #ee3643;
 }
 

@@ -721,6 +721,8 @@ li:last-child .social-link {
 	list-style: none;
 	display: flex;
 	justify-content: space-between;
+
+	font-family: "PT Sans", "Arial", sans-serif;
 }
 
 .product-card {
@@ -751,7 +753,7 @@ li:last-child .social-link {
 .card-title {
 	margin: 0;
 	margin-bottom: 12px;
-	width: 190px;
+	width: 160px;
 
 	font-size: 18px;
 	line-height: 20px;
@@ -777,11 +779,11 @@ li:last-child .social-link {
 
 .card-price {
 	display: block;
-  margin-right: 11px;
-  margin-bottom: 20px;
-  padding: 10px;
-  padding-left: 34px;
-  width: 120px;
+	margin-right: 11px;
+	margin-bottom: 20px;
+	padding: 10px;
+	padding-left: 34px;
+	width: 120px;
 
 	border-radius: 2px;
 	background-color: #ee3643;
@@ -819,4 +821,10 @@ li:last-child .social-link {
 .card-bookmark:active {
 	opacity: 0.3;
 }
+
+.popular-products .product-card {
+	margin-right: 0;
+}
+
+.promo-item
 	

@@ -58,145 +58,170 @@
     <main>
         <h1 class="visually-hidden">Магазин &laquo;Техномарт&raquo;</h1>
 
-        <!-- Promo -->
-        <section>
-            <h2 class="visually-hidden">Промо</h2>
-            <div>
-                <h3>Материалы</h3>
-                <a href="">На любой вкус</a>
-            </div>
-            <div>
-                <h3>Инструмент</h3>
-                <a href="">На все случаи</a>
-            </div>
-            <div>
-                <h3>Техника</h3>
-                <a href="">Для стройки</a>
-            </div>
-            <!-- Тут будет слайдер -->
-            <div>
-                <h3 class="visually-hidden">Слайдер</h3>
-                <div>
-                    <h3>Дрели</h3>
-                    <p>Соседям на радость!</p>
-                    <img src="img/promo-slider-1.jpg" width="620" height="266" alt="Дрели">
-                    <a href="catalog.html">Открыть каталог</a>
+        <div class="container">
+            
+            <!-- Promo -->
+            <section class="promo">
+                <h2 class="visually-hidden">Промо</h2>
+                <div class="promo-item">
+                    <h3>Материалы</h3>
+                    <a href="">На любой вкус</a>
                 </div>
-                <div>
-                    <h3>Перфораторы</h3>
-                    <p>Настоящие мужские игрушки</p>
-                    <img src="img/promo-slider-2.jpg" width="620" height="266" alt="Перфораторы">
-                    <a href="catalog.html">Открыть каталог</a>
+                <div class="promo-item">
+                    <h3>Инструмент</h3>
+                    <a href="">На все случаи</a>
                 </div>
-            <button type="button" aria-label="Назад">Пред</button>
-            <button type="button" aria-label="Вперёд">След</button>
-            </div>
-            <div>
-                <h3>Скидки 50%</h3>
-                <a href="">На 350 товаров</a>
-            </div>
-            <div>
-                <h3>Доставка</h3>
-                <a href="">Бесплатно</a>
-            </div>
-        </section>
-        <!-- /promo -->
+                <div class="promo-item">
+                    <h3>Техника</h3>
+                    <a href="">Для стройки</a>
+                </div>
+                <div class="slider">
+                    <div class="slide">
+                        <h3>Дрели</h3>
+                        <p>Соседям на радость!</p>
+                        <img src="img/promo-slider-1.jpg" width="620" height="266" alt="Дрели">
+                        <a href="catalog.html">Открыть каталог</a>
+                    </div>
+                    <div class="slide">
+                        <h3>Перфораторы</h3>
+                        <p>Настоящие мужские игрушки</p>
+                        <img src="img/promo-slider-2.jpg" width="620" height="266" alt="Перфораторы">
+                        <a href="catalog.html">Открыть каталог</a>
+                    </div>
+                <button type="button" aria-label="Назад">Пред</button>
+                <button type="button" aria-label="Вперёд">След</button>
+                </div>
+                <div class="promo-item">
+                    <h3>Скидки 50%</h3>
+                    <a href="">На 350 товаров</a>
+                </div>
+                <div class="promo-item">
+                    <h3>Доставка</h3>
+                    <a href="">Бесплатно</a>
+                </div>
+            </section>
+            <!-- /promo -->
 
-        <!-- Popular-goods -->
-        <section>
-            <div>
-                <h2>Популярные товары:</h2>
-                <a href="">Все популярные товары</a>
-            </div>
-       
-            <ul>
-                <li>
-                    <h3>Перфоратор BOSCH BFG 9000</h3>
-                    <img src="img/catalog-item-3.jpg" width="218" height="170" alt="Перфоратор BOSCH BFG 9000">
-                    <a href="">Купить</a>
-                    <a href="">В закладки</a>
-                    <span>32500 Р.</span> 
-                    <span>25500 Р.</span>
-                </li>
-                <li>
-                    <h3>Перфоратор BOSCH BFG 3000</h3>
-                    <img src="img/catalog-item-1.jpg" width="218" height="170" alt="Перфоратор BOSCH BFG 3000">
-                    <a href="">Купить</a>
-                    <a href="">В закладки</a>
-                    <span>22500 Р.</span> 
-                    <span>15500 Р.</span>
-                </li>
-                <li>
-                    <h3>Перфоратор BOSCH BFG 6000</h3>
-                    <img src="img/catalog-item-2.jpg" width="218" height="170" alt="Перфоратор BOSCH BFG 6000">
-                    <a href="">Купить</a>
-                    <a href="">В закладки</a>
-                    <span>30500 Р.</span> 
-                    <span>25500 Р.</span>
-                </li>
-                <li>
-                    <h3>Перфоратор BOSCH BFG 2000</h3>
-                    <img src="img/catalog-item-1.jpg" width="218" height="170" alt="Перфоратор BOSCH BFG 2000">
-                    <a href="">Купить</a>
-                    <a href="">В закладки</a>
-                    <span>12500 Р.</span> 
-                    <span>12500 Р.</span>
-                </li>
-            </ul>
-        </section>
-        <!-- /popular-goods -->
+            <!-- Popular-goods -->
+            <section class="popular-products">
+                <div>
+                    <h2>Популярные товары:</h2>
+                    <a href="">Все популярные товары</a>
+                </div>
+                
+                <ul class="products">
+                    <li class="product-card">
+                        <a href="">
+                            <h3 class="card-title">Перфоратор BOSCH BFG 9000</h3>
+                        </a>
+                        <p class="card-picture">
+                            <img src="img/catalog-item-3.jpg" width="218" height="170" alt="Перфоратор BOSCH BFG 9000">
+                        </p>
+                        <div class="card-links">
+                            <a class="card-buy" href="">Купить</a>
+                            <a class="card-bookmark" href="">В закладки</a>
+                        </div>
+                        <span class="card-sale">32500 Р.</span> 
+                        <span class="card-price">25500 Р.</span>
+                    </li>
+                    <li class="product-card">
+                        <a href="">
+                            <h3 class="card-title">Перфоратор BOSCH BFG 3000</h3>
+                        </a>
+                        <p class="card-picture">
+                            <img src="img/catalog-item-1.jpg" width="218" height="170" alt="Перфоратор BOSCH BFG 3000">
+                        </p>
+                        <div class="card-links">
+                            <a class="card-buy" href="">Купить</a>
+                            <a class="card-bookmark" href="">В закладки</a>
+                        </div>
+                        <span class="card-sale">22500 Р.</span> 
+                        <span class="card-price">15500 Р.</span>
+                    </li>
+                    <li class="product-card">
+                        <a href="">
+                            <h3 class="card-title">Перфоратор BOSCH BFG 6000</h3>
+                        </a>
+                        <p class="card-picture">
+                            <img src="img/catalog-item-2.jpg" width="218" height="170" alt="Перфоратор BOSCH BFG 6000">
+                        </p>
+                        <div class="card-links">
+                            <a class="card-buy" href="">Купить</a>
+                            <a class="card-bookmark" href="">В закладки</a>
+                        </div>
+                        <span class="card-sale">30500 Р.</span> 
+                        <span class="card-price">25500 Р.</span>
+                    </li>
+                    <li class="product-card">
+                        <a href="">
+                            <h3 class="card-title">Перфоратор BOSCH BFG 2000</h3>
+                        </a>
+                        <p class="card-picture">
+                            <img src="img/catalog-item-1.jpg" width="218" height="170" alt="Перфоратор BOSCH BFG 2000">
+                        </p>
+                        <div class="card-links">
+                            <a class="card-buy" href="">Купить</a>
+                            <a class="card-bookmark" href="">В закладки</a>
+                        </div>
+                        <span class="card-sale">12500 Р.</span> 
+                        <span class="card-price">12500 Р.</span>
+                    </li>
+                </ul>
+            </section>
+            <!-- /popular-goods -->
 
-        <!-- Popular-producers -->
-        <section>
-            <div>
-                <h2>Популярные производители:</h2>
-                <a href="">Все производители</a>
-            </div>
+            <!-- Popular-producers -->
+            <section>
+                <div>
+                    <h2>Популярные производители:</h2>
+                    <a href="">Все производители</a>
+                </div>
 
-            <ul>
-                <li>
-                    <a href="">
-                        <img src="img/bosch.png" alt="Bosch">
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <img src="img/makita.png" alt="Makita">
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <img src="img/dewalt.png" alt="Dewalt">
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <img src="img/interskol.png" alt="Интерскол">
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <img src="img/hitachi.png" alt="Hitachi">
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <img src="img/lg.png" alt="LG">
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <img src="img/aeg.png" alt="Aeg">
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <img src="img/metabo.png" alt="Metabo">
-                    </a>
-                </li>
-            </ul>
-        </section>
-        <!-- /popular-producers -->
+                <ul>
+                    <li>
+                        <a href="">
+                            <img src="img/bosch.png" alt="Bosch">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="img/makita.png" alt="Makita">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="img/dewalt.png" alt="Dewalt">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="img/interskol.png" alt="Интерскол">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="img/hitachi.png" alt="Hitachi">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="img/lg.png" alt="LG">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="img/aeg.png" alt="Aeg">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="img/metabo.png" alt="Metabo">
+                        </a>
+                    </li>
+                </ul>
+            </section>
+            <!-- /popular-producers -->
+        </div>
 
         <!-- Services -->
         <section>

@@ -87,9 +87,9 @@
                                     <span class="max-handle">Установить максимальную цену</span>
                                 </div>
                             </div>
-                            <input type="text" id="min" name="min" value="0">
+                            <input class="range-input" type="text" id="min" name="min" value="0">
                             <span>-</span>
-                            <input type="text" id="max" name="max" value="30000">
+                            <input class="range-input" type="text" id="max" name="max" value="30000">
                         </fieldset>
                         <fieldset>
                             <legend class="fieldset-title">Производители:</legend>
@@ -151,10 +151,10 @@
                 <section class="product-list">
                     <h2 class="visually-hidden">Список товаров</h2>
 
-                    <div>
-                        <span>Сортировка:</span>
-                        <ul>
-                            <li><a href="">По цене</a></li>
+                    <div class="sort">
+                        <span class="sort-title">Сортировка:</span>
+                        <ul class="sort-controls">
+                            <li><a class="active" href="">По цене</a></li>
                             <li><a href="">По типу</a></li>
                             <li><a href="">По функционалу</a></li>
                             <li><a href="">По возрастанию</a></li>
@@ -206,9 +206,9 @@
                         </li>
                         <!-- и т.д. пока что -->
                     </ul>
-                    <div>
-                        <ul>
-                            <li><a>1</a></li>
+                    <div class="page-numbers">
+                        <ul class="numbers-list">
+                            <li><a class="active">1</a></li>
                             <li><a href="">2</a></li>
                             <li><a href="">3</a></li>
                             <li><a href="">Следующая</a></li>
@@ -220,10 +220,12 @@
         
 
         <!-- About -->
-        <section>
-            <h2>ПАРА СЛОВ О ПЕРФОРАТОРАХ</h2>
-            <p>Перфоратор — универсальный строительный инструмент. Предназначен для сверления и долбления отверстий в кирпиче, бетоне и камне. Существуют электромеханические и пневматические перфораторы. Современные модели могут выполнять функции дрели, шуруповерта и отбойного молотка. В
-            ассортиментном ряду есть выбор «трехрежимников»: в одном устройстве будут совмещены отбойный молоток и ударная дрель.</p>
+        <section class="catalog-about">
+            <div class="container">
+                <h2>ПАРА СЛОВ О ПЕРФОРАТОРАХ</h2>
+                <p>Перфоратор — универсальный строительный инструмент. Предназначен для сверления и долбления отверстий в кирпиче, бетоне и камне. Существуют электромеханические и пневматические перфораторы. Современные модели могут выполнять функции дрели, шуруповерта и отбойного молотка. В
+                ассортиментном ряду есть выбор «трехрежимников»: в одном устройстве будут совмещены отбойный молоток и ударная дрель.</p>
+            </div>
         </section>
         <!-- /about -->
     </main>

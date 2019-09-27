@@ -187,7 +187,7 @@ a {
 }
 
 .header-contact {
-	margin-right: 69px;
+	margin-right: 52px;
 }
 
 .header-phone {
@@ -215,6 +215,7 @@ a {
 
 	margin: 0;
 	padding: 0;
+	padding-left: 16px;
 	list-style: none;
 }
 
@@ -644,7 +645,18 @@ li:last-child .social-link {
 	margin-bottom: 16px;
 	padding: 0;
 	padding-bottom: 4px;
+
 	border: 0;
+}
+
+.filter-title {
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 18px;
+	color: #000000;
+	text-transform: uppercase;
+
+	background-color: #f7f3ec;
 }
 
 .filter-form fieldset:not(:last-of-type) {
@@ -663,6 +675,15 @@ li:last-child .social-link {
 	font-weight: 700;
 	color: #000000;
 	text-transform: uppercase;
+}
+
+.range-input {
+	font-size: 17px;
+	line-height: 18px;
+	text-align: center;
+
+	background-color: #f7f3ec;
+	border: 0;
 }
 
 .filter-producers,
@@ -709,6 +730,38 @@ li:last-child .social-link {
 	background-color: transparent;
 
 	cursor: pointer;
+}
+
+.sort {
+	background-color: #f7f3ec;
+}
+
+.sort-title {
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 18px;
+	color: #000000;
+	text-transform: uppercase;
+
+	background-color: #f7f3ec;
+}
+
+.sort-controls {
+	margin: 0;
+	padding: 0;
+
+	list-style: none;
+}
+
+.sort-controls a {
+	font-size: 13px;
+	line-height: 18px;
+	color: rgba(0,0,0,0.3);
+	text-transform: uppercase;
+}
+
+.sort-controls .active {
+	color: #ee3643;
 }
 
 .product-list {
@@ -824,6 +877,44 @@ li:last-child .social-link {
 
 .popular-products .product-card {
 	margin-right: 0;
+}
+
+.numbers-list {
+	margin: 0;
+	padding: 0;
+
+	list-style: none;
+}
+
+.numbers-list a {
+	font-size: 13px;
+	line-height: 18px;
+	color: #000000;
+	text-transform: uppercase;
+}
+
+.numbers-list .active {
+	color: #ffffff;
+
+	background-color: #ee3643;
+}
+
+.catalog-about {
+	background-color: #f2f6f8;
+}
+
+.catalog-about h2 {
+	font-size: 30px;
+	line-height: 30px;
+	color: #000000;
+	text-transform: uppercase;
+}
+
+.catalog-about p {
+	font-family: "PT Sans", "Arial", sans-serif;
+	font-size: 13px;
+	line-height: 24px;
+	color: #000000;
 }
 
 .promo-item h3 {

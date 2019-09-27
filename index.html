@@ -63,48 +63,55 @@
             <!-- Promo -->
             <section class="promo">
                 <h2 class="visually-hidden">Промо</h2>
-                <div class="promo-item">
-                    <h3>Материалы</h3>
-                    <a href="">На любой вкус</a>
-                </div>
-                <div class="promo-item">
-                    <h3>Инструмент</h3>
-                    <a href="">На все случаи</a>
-                </div>
-                <div class="promo-item">
-                    <h3>Техника</h3>
-                    <a href="">Для стройки</a>
-                </div>
-                <div class="slider">
-                    <div class="slide">
-                        <h3>Дрели</h3>
-                        <p>Соседям на радость!</p>
-                        <img src="img/promo-slider-1.jpg" width="620" height="266" alt="Дрели">
-                        <a href="catalog.html">Открыть каталог</a>
+
+                <div class="first-row">
+                    <div class="promo-item">
+                        <h3>Материалы</h3>
+                        <a href="">На любой вкус</a>
                     </div>
-                    <div class="slide">
-                        <h3>Перфораторы</h3>
-                        <p>Настоящие мужские игрушки</p>
-                        <img src="img/promo-slider-2.jpg" width="620" height="266" alt="Перфораторы">
-                        <a href="catalog.html">Открыть каталог</a>
+                    <div class="promo-item">
+                        <h3>Инструмент</h3>
+                        <a href="">На все случаи</a>
                     </div>
-                <button type="button" aria-label="Назад">Пред</button>
-                <button type="button" aria-label="Вперёд">След</button>
+                    <div class="promo-item">
+                        <h3>Техника</h3>
+                        <a href="">Для стройки</a>
+                    </div>
                 </div>
-                <div class="promo-item">
-                    <h3>Скидки 50%</h3>
-                    <a href="">На 350 товаров</a>
-                </div>
-                <div class="promo-item">
-                    <h3>Доставка</h3>
-                    <a href="">Бесплатно</a>
+                <div class="second-row">
+                    <div class="slider">
+                        <div class="slide">
+                            <h3>Дрели</h3>
+                            <p>Соседям на радость!</p>
+                            <img src="img/promo-slider-1.jpg" width="620" height="266" alt="Дрели">
+                            <a href="catalog.html">Открыть каталог</a>
+                        </div>
+                        <div class="slide">
+                            <h3>Перфораторы</h3>
+                            <p>Настоящие мужские игрушки</p>
+                            <img src="img/promo-slider-2.jpg" width="620" height="266" alt="Перфораторы">
+                            <a href="catalog.html">Открыть каталог</a>
+                        </div>
+                        <button type="button" aria-label="Назад">Предыдущий</button>
+                        <button type="button" aria-label="Вперёд">Следующий</button>
+                    </div>
+                    <div class="promo-column">
+                        <div class="promo-item">
+                            <h3>Скидки 50%</h3>
+                            <a href="">На 350 товаров</a>
+                        </div>
+                        <div class="promo-item">
+                            <h3>Доставка</h3>
+                            <a href="">Бесплатно</a>
+                        </div>
+                    </div>
                 </div>
             </section>
             <!-- /promo -->
 
             <!-- Popular-goods -->
             <section class="popular-products">
-                <div>
+                <div class="products-header">
                     <h2>Популярные товары:</h2>
                     <a href="">Все популярные товары</a>
                 </div>
@@ -171,8 +178,8 @@
             <!-- /popular-goods -->
 
             <!-- Popular-producers -->
-            <section>
-                <div>
+            <section class="popular-producers">
+                <div class="producers-header">
                     <h2>Популярные производители:</h2>
                     <a href="">Все производители</a>
                 </div>
@@ -224,45 +231,49 @@
         </div>
 
         <!-- Services -->
-        <section>
-            <h2>Сервисы</h2>
-            <p>Хороший интернет-магазин отличается от плохого не только ценами!</p>
-            <p>Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
-        </section>
-        <div>
-            <ul>
-                <li>
-                    <button type="button">Доставка</button>
-                </li>
-                <li>
-                    <button type="button">Гарантия</button>
-                </li>
-                <li>
-                    <button type="button">Кредит</button>
-                </li>
-            </ul>
-        </div>
-        <section>
-            <h3>Доставка</h3>
-            <p>Мы с удовольствием доставим ваш товар прямо
-            к вашему подъезду совершенно бесплатно!</p>
-            <p>Ведь мы неплохо заработаем,
-            поднимая его на ваш этаж!</p>
-       </section>
-       <section>
-           <h3>Гарантия</h3>
-            <p>Если купленный у нас товар поломается или заискрит,
-            а также в случае пожара, спровоцированного его возгоранием,
-            вы всегда можете быть уверены в нашей гарантии. Мы обменяем
-            сгоревший товар на новый.</p>
-            <p>Дом уж восстановите как-нибудь сами.</p>
-       </section>
-        <section>
-            <h3>Кредит</h3>
-            <p>Залезть в долговую яму стало проще!</p>
-            <p>Кредитные консультанты придут вам на помощь.</p>
-            
-            <a href="">Отправить заявку</a>
+        <section class="services">
+            <div class="container">
+                <div class="services-header">
+                    <h2>Сервисы</h2>
+                    <p>Хороший интернет-магазин отличается от плохого не только ценами!</p>
+                    <p>Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
+                </div>
+                <div class="services-controls">
+                    <ul>
+                        <li>
+                            <button class="active" type="button">Доставка</button>
+                        </li>
+                        <li>
+                            <button type="button">Гарантия</button>
+                        </li>
+                        <li>
+                            <button type="button">Кредит</button>
+                        </li>
+                    </ul>
+                </div>
+                <div class="services-slide">
+                    <h3>Доставка</h3>
+                    <p>Мы с удовольствием доставим ваш товар прямо
+                    к вашему подъезду совершенно бесплатно!</p>
+                    <p>Ведь мы неплохо заработаем,
+                    поднимая его на ваш этаж!</p>
+                </div>
+                <div class="services-slide">
+                    <h3>Гарантия</h3>
+                    <p>Если купленный у нас товар поломается или заискрит,
+                    а также в случае пожара, спровоцированного его возгоранием,
+                    вы всегда можете быть уверены в нашей гарантии. Мы обменяем
+                    сгоревший товар на новый.</p>
+                    <p>Дом уж восстановите как-нибудь сами.</p>
+                </div>
+                <div class="services-slide">
+                    <h3>Кредит</h3>
+                    <p>Залезть в долговую яму стало проще!</p>
+                    <p>Кредитные консультанты придут вам на помощь.</p>
+                    
+                    <a href="">Отправить заявку</a>
+                </div>
+            </div>
         </section>
         <!-- /services -->
         

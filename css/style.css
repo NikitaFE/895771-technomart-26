@@ -31,7 +31,6 @@ a {
 	display: inline-block;
 
  	font: inherit;
-
  	text-align: center;
  	vertical-align: middle;
   
@@ -39,8 +38,9 @@ a {
 }
 
 .header {
-	background-color: #f3f7f9;
 	padding-bottom: 60px;
+
+	background-color: #f3f7f9;
 }
 
 .header-top {
@@ -131,8 +131,8 @@ a {
 
 	font-size: 17px;
 	line-height: 18px;
-	color: #ffffff;
 	vertical-align: top;
+	color: #ffffff;
 }
 
 .header-link.active {
@@ -144,8 +144,9 @@ a {
 }
 
 .header-link:active {
+	color: rgba(255, 255, 255, 0.6);
+
 	background-color: #161d29;
-	color: rgba(255,255,255,0.6);
 }
 
 .header-link:nth-of-type(3) {
@@ -163,8 +164,9 @@ a {
 }
 
 .header-link:last-child:active {
+	color: rgba(255, 255, 255, 0.5);
+
 	background-color: #518534;
-	color: rgba(255,255,255,0.5);
 }
 
 .header-middle {
@@ -180,9 +182,9 @@ a {
 	margin-right: 68px;
 	width: 200px;
 
+	font-style: italic;
 	font-size: 16px;
 	line-height: 23px;
-	font-style: italic;
 	color: #ee3643;
 }
 
@@ -212,17 +214,17 @@ a {
 
 .profile-buttons {
 	display: flex;
-
 	margin: 0;
 	padding: 0;
 	padding-left: 16px;
+
 	list-style: none;
 }
 
 .profile-button {
+	width: 121px;
 	margin-right: 10px;
 	padding: 13px 5px 11px 27px;
-	width: 121px;
 
 	font-size: 21px;
 	line-height: 21px;
@@ -232,9 +234,9 @@ a {
 }
 
 li:last-child .profile-button {
+	width: 150px;
 	margin-right: 0;
 	padding-left: 5px;
-	width: 150px;
 }
 
 .profile-button:hover {
@@ -246,9 +248,9 @@ li:last-child .profile-button {
 }
 
 .profile-name {
-	padding-right: 49px;
 	width: 298px;
 	margin-right: 0;
+	padding-right: 49px;
 }
 
 .profile-name:hover {
@@ -265,6 +267,7 @@ li:last-child .profile-button {
 	margin-top: 7px;
 	margin-left: 18px;
 	padding: 0;
+
 	list-style: none;
 }
 
@@ -282,7 +285,7 @@ li:last-child .profile-button {
 }
 
 .profile-link:active {
-	color: rgba(0,0,0,0.3);
+	color: rgba(0, 0, 0, 0.3);
 }
 
 .nav-list {
@@ -290,6 +293,7 @@ li:last-child .profile-button {
 	justify-content: center;
 	margin: 0;
 	padding: 0;
+
 	list-style: none;
 
 	background-color: #32425c;
@@ -310,8 +314,9 @@ li:last-child .profile-button {
 }
 
 .nav-link:active {
+	color: rgba(255, 255, 255, 0.5);
+
 	background-color: #1d2739;
-	color: rgba(255,255,255,0.5);
 }
 
 .grid-block {
@@ -347,27 +352,28 @@ li:last-child .profile-button {
 	margin: 0;
 	margin-bottom: 24px;
 
-	font-family: "PT Sans", "Arial", sans-serif;
+	font-weight: 400;
 	font-size: 13px;
 	line-height: 24px;
-	font-weight: 400;
+	font-family: "PT Sans", Arial, sans-serif;
 	color: #000000;
 }
 
 .about-text:last-of-type {
-	margin-bottom: 11px;
 	width: 400px;
+	margin-bottom: 11px;
 }
 
 .contact-text {
-	margin-bottom: 31px;
 	width: 200px;
+	margin-bottom: 31px;
 }
 
 .partners {
 	margin: 0;
 	margin-bottom: 25px;
 	padding: 0;
+
 	list-style: none;
 }
 
@@ -385,8 +391,8 @@ li:last-child .profile-button {
 
 	font-size: 14px;
 	line-height: 18px;
-	color: #ffffff;
 	text-transform: uppercase;
+	color: #ffffff;
 
 	background-color: #ee3643;
 	border-radius: 2px;
@@ -397,8 +403,8 @@ li:last-child .profile-button {
 }
 
 .contact-link {
-	padding-left: 64px;
 	flex: 1;
+	padding-left: 64px;
 }
 
 .about-link:hover,
@@ -413,9 +419,9 @@ li:last-child .profile-button {
 
 .map-icon {
 	display: block;
-	margin-bottom: 40px;
 	width: 300px;
 	height: 158px;
+	margin-bottom: 40px;
 
 	background-color: #f4f2ed;
 }
@@ -456,6 +462,7 @@ li:last-child .profile-button {
 	align-items: center;
 	margin: 0;
 	padding: 0;
+
 	list-style: none;
 }
 
@@ -486,9 +493,9 @@ li:last-child .profile-button {
 }
 
 .footer-contacts {
-	padding-left: 4px;
-	margin: 0;
 	width: 330px;
+	margin: 0;
+	padding-left: 4px;
 
 	font-size: 18px;
 	line-height: 24px;
@@ -529,6 +536,7 @@ li:last-child .profile-button {
 	margin-right: 120px;
 	padding: 0;
 	padding-top: 4px;
+
 	list-style: none;
 }
 
@@ -539,8 +547,8 @@ li:last-child .profile-button {
 	height: 40px;
 	margin-right: 5px;
 
-	border-radius: 50%;
 	background-color: #212a3a;
+	border-radius: 50%;
 }
 
 li:last-child .social-link {
@@ -558,16 +566,16 @@ li:last-child .social-link {
 }
 
 .feedback-link {
-	margin-right: 49px;
 	width: 140px;
+	margin-right: 49px;
 
 	font-size: 16px;
 	line-height: 18px;
 }
 
 .feedback-link:last-child {
-	margin-right: 0;
 	width: 110px;
+	margin-right: 0;
 }
 
 .feedback-link a {
@@ -588,16 +596,16 @@ li:last-child .social-link {
 }
 
 .catalog-title {
-	margin: 0;
 	height: 89px;
+	margin: 0;
 	padding-top: 29px;
 	padding-left: 28px;
 
+	font-weight: 400;
 	font-size: 30px;
 	line-height: 30px;
-	font-weight: 400;
-	color: #32425c;
 	text-transform: uppercase;
+	color: #32425c;
 
 	background-color: #f2f6f8;
 }
@@ -606,17 +614,18 @@ li:last-child .social-link {
 	display: flex;
 	margin: 0;
 	padding: 21px 0;
+
 	list-style: none;
 }
 
 .breadcrumbs li {
 	margin-right: 40px;
 
-	font-family: "PT Sans", "Arial", sans-serif;
 	font-size: 13px;
 	line-height: 18px;
-	color: #000000;
+	font-family: "PT Sans", Arial, sans-serif;
 	text-transform: uppercase;
+	color: #000000;
 }
 
 .breadcrumbs a {
@@ -627,13 +636,11 @@ li:last-child .social-link {
 	display: block;
 	width: 15px;
 	height: 15px;
-
-	font-size: 0;
 }
 
 .filter,
 .product-list {
-	font-family: "PT Sans", "Arial", sans-serif;
+	font-family: "PT Sans", Arial, sans-serif;
 }
 
 .filter {
@@ -650,11 +657,11 @@ li:last-child .social-link {
 }
 
 .filter-title {
-	font-size: 13px;
 	font-weight: 400;
+	font-size: 13px;
 	line-height: 18px;
-	color: #000000;
 	text-transform: uppercase;
+	color: #000000;
 
 	background-color: #f7f3ec;
 }
@@ -670,11 +677,11 @@ li:last-child .social-link {
 .fieldset-title {
 	margin-bottom: 10px;
 
-	font-size: 17px;
-	height: 30px;
 	font-weight: 700;
-	color: #000000;
+	font-size: 17px;
+	line-height: 30px;
 	text-transform: uppercase;
+	color: #000000;
 }
 
 .range-input {
@@ -713,22 +720,21 @@ li:last-child .social-link {
 
 	font-size: 15px;
 	line-height: 20px;
-	color: #000000;
 	text-transform: uppercase;
+	color: #000000;
 }
 
 .filter-submit {
-	padding: 10px 0 8px;
 	width: 140px;
+	padding: 10px 0 8px;
 
 	font-size: 13px;
 	line-height: 18px;
 	text-transform: uppercase;
 
+	background-color: transparent;
 	border-radius: 2px;
 	border: 1px solid #e5e5e5;
-	background-color: transparent;
-
 	cursor: pointer;
 }
 
@@ -737,11 +743,11 @@ li:last-child .social-link {
 }
 
 .sort-title {
-	font-size: 13px;
 	font-weight: 400;
+	font-size: 13px;
 	line-height: 18px;
-	color: #000000;
 	text-transform: uppercase;
+	color: #000000;
 
 	background-color: #f7f3ec;
 }
@@ -756,8 +762,8 @@ li:last-child .social-link {
 .sort-controls a {
 	font-size: 13px;
 	line-height: 18px;
-	color: rgba(0,0,0,0.3);
 	text-transform: uppercase;
+	color: rgba(0, 0, 0, 0.3);
 }
 
 .sort-controls .active {
@@ -769,13 +775,14 @@ li:last-child .social-link {
 }
 
 .products {
-	margin: 0;
-	padding: 0;
-	list-style: none;
 	display: flex;
 	justify-content: space-between;
+	margin: 0;
+	padding: 0;
 
-	font-family: "PT Sans", "Arial", sans-serif;
+	list-style: none;
+	font-family: "PT Sans", Arial, sans-serif;
+
 }
 
 .product-card {
@@ -804,21 +811,21 @@ li:last-child .social-link {
 }
 
 .card-title {
+	width: 160px;
 	margin: 0;
 	margin-bottom: 12px;
-	width: 160px;
 
 	font-size: 18px;
 	line-height: 20px;
-	color: #000000;
 	text-align: center;
+	color: #000000;
 }
 
 .card-sale,
 .card-price {
+	font-weight: 700;
 	font-size: 17px;
 	line-height: 18px;
-	font-weight: 700;
 	text-transform: uppercase;
 }
 
@@ -826,20 +833,20 @@ li:last-child .social-link {
 	margin-bottom: 9px;
 	margin-left: 3px;
 
-	color: #999999;
 	text-decoration: line-through;
+	color: #999999;
 }
 
 .card-price {
 	display: block;
+	width: 120px;
 	margin-right: 11px;
 	margin-bottom: 20px;
 	padding: 10px;
 	padding-left: 34px;
-	width: 120px;
 
-	border-radius: 2px;
 	background-color: #ee3643;
+	border-radius: 2px;
 }
 
 .card-links {
@@ -848,15 +855,16 @@ li:last-child .social-link {
 
 .card-buy,
 .card-bookmark {
-	font-family: "Cuprum", Arial, sans-serif;
 	font-size: 14px;
 	line-height: 18px;
+	font-family: "Cuprum", Arial, sans-serif;
 	text-transform: uppercase;
 }
 
 .card-buy {
-	background-color: #63a63e;
 	color: #ffffff;
+
+	background-color: #63a63e;
 }
 
 .card-buy:hover {
@@ -889,8 +897,8 @@ li:last-child .social-link {
 .numbers-list a {
 	font-size: 13px;
 	line-height: 18px;
-	color: #000000;
 	text-transform: uppercase;
+	color: #000000;
 }
 
 .numbers-list .active {
@@ -906,14 +914,14 @@ li:last-child .social-link {
 .catalog-about h2 {
 	font-size: 30px;
 	line-height: 30px;
-	color: #000000;
 	text-transform: uppercase;
+	color: #000000;
 }
 
 .catalog-about p {
-	font-family: "PT Sans", "Arial", sans-serif;
 	font-size: 13px;
 	line-height: 24px;
+	font-family: "PT Sans", Arial, sans-serif;
 	color: #000000;
 }
 
@@ -925,10 +933,10 @@ li:last-child .social-link {
 .promo-item a {
 	font-size: 14px;
 	line-height: 18px;
-	color: #ffffff;
 	text-transform: uppercase;
+	color: #ffffff;
 
-	background-color: rgba(0,0,0,0.1);
+	background-color: rgba(0, 0, 0, 0.1);
 }
 
 .first-row .promo-item:first-child {
@@ -951,22 +959,22 @@ li:last-child .social-link {
 	background-color: #ffc047;
 }
 
-.slide h3 {
+.slide-title {
 	font-size: 36px;
 	line-height: 36px;
 	text-transform: uppercase;
 }
 
-.slide p {
+.slide-text {
 	font-size: 18px;
 	line-height: 24px;
 }
 
-.slide a {
+.slide-link {
 	font-size: 14px;
 	line-height: 18px;
-	color: #ffffff;
 	text-transform: uppercase;
+	color: #ffffff;
 
 	background-color: #ee3643;
 }
@@ -974,8 +982,8 @@ li:last-child .social-link {
 .slider button {
 	font-size: 0;
 
-	border: 0;
 	background-color: transparent;
+	border: 0;
 }
 
 .products-header,
@@ -985,19 +993,19 @@ li:last-child .social-link {
 
 .products-header h2,
 .producers-header h2 {
-	font-size: 30px;
 	font-weight: 400;
+	font-size: 30px;
 	line-height: 30px;
-	color: #32425c;
 	text-transform: uppercase;
+	color: #32425c;
 }
 
 .products-header a,
 .producers-header a {
 	font-size: 14px;
 	line-height: 18px;
-	color: #ffffff;
 	text-transform: uppercase;
+	color: #ffffff;
 
 	background-color: #ee3643;
 }
@@ -1007,11 +1015,11 @@ li:last-child .social-link {
 }
 
 .services-header h2 {
-	font-size: 30px;
 	font-weight: 400;
+	font-size: 30px;
 	line-height: 30px;
-	color: #000000;
 	text-transform: uppercase;
+	color: #000000;
 }
 
 .services-controls ul {
@@ -1022,14 +1030,14 @@ li:last-child .social-link {
 }
 
 .services-controls button {
-	font-family: inherit;
-	font-size: 21px;
 	font-weight: 700;
+	font-size: 21px;
 	line-height: 30px;
+	font-family: inherit;
 	color: #ffffff;
 
-	border: 0;
 	background-color: #32425c;
+	border: 0;
 }
 
 .services-controls .active {
@@ -1039,25 +1047,25 @@ li:last-child .social-link {
 } 
 
 .services p {
-	font-family: "PT Sans", "Arial", sans-serif;
 	font-size: 13px;
 	line-height: 24px;
+	font-family: "PT Sans", Arial, sans-serif;
 	color: #000000;
 }
 
 .services-slide h3 {
-	font-size: 36px;
 	font-weight: 400;
+	font-size: 36px;
 	line-height: 36px;
-	color: #32425c;
 	text-transform: uppercase;
+	color: #32425c;
 }
 
 .services-slide a {
 	font-size: 14px;
 	line-height: 18px;
-	color: #ffffff;
 	text-transform: uppercase;
+	color: #ffffff;
 
 	background-color: #ee3643;
 }

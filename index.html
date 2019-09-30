@@ -19,9 +19,31 @@
                 </a>
                 <form action="https://echo.htmlacademy.ru" method="get">
                     <input class="search-field" type="text" placeholder="Поиск:">
+                    <svg class="search-icon" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="17px" height="17px" viewBox="0 0 17 17" enable-background="new 0 0 17 17" xml:space="preserve">
+                        <g>
+                            <path d="M17,15.586l-3.542-3.542C14.421,10.782,15,9.21,15,7.5C15,3.358,11.643,0,7.5,0C3.358,0,0,3.358,0,7.5
+                                C0,11.643,3.358,15,7.5,15c1.71,0,3.282-0.579,4.544-1.542L15.586,17L17,15.586z M2,7.5C2,4.467,4.467,2,7.5,2
+                                C10.532,2,13,4.467,13,7.5c0,3.032-2.468,5.5-5.5,5.5C4.467,13,2,10.532,2,7.5z"/>
+                        </g>
+                    </svg>
                 </form>
-                <a class="header-link" href="">Закладки: 0</a>
-                <a class="header-link" href="">Корзина: 0</a>
+                <a class="header-link" href="">
+                    <svg class="link-icon" version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="14px" height="16px" viewBox="0 0 14 16" enable-background="new 0 0 14 16" xml:space="preserve">
+                        <path d="M14,15c0,0.55-0.368,0.741-0.818,0.426l-5.363-3.765c-0.45-0.315-1.187-0.315-1.637,0l-5.364,3.765
+                        C0.368,15.741,0,15.55,0,15V1c0-0.55,0.45-1,1-1h12c0.55,0,1,0.45,1,1V15z"/>
+                    </svg>
+                    Закладки: 0
+                </a>
+                <a class="header-link" href="">
+                    <svg class="link-icon" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="15px" height="15px" viewBox="0 0 15 15" enable-background="new 0 0 15 15" xml:space="preserve">
+                        <g>
+                            <circle cx="4.5" cy="13.5" r="1.5"/>
+                            <circle cx="12.5" cy="13.5" r="1.5"/>
+                            <polygon points="15,2 4.07,2 3.648,0 0,0 0,2 2.031,2 4.016,11 15,11 15,9 9.441,9 15,6.951   "/>
+                        </g>
+                    </svg>
+                    Корзина: 0
+                </a>
                 <a class="header-link button" href="">Оформить заказ</a>
             </div>
         </div>
@@ -37,7 +59,18 @@
                     <p class="header-address">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
                 </div>
                 <ul class="profile-buttons">
-                    <li><a class="profile-button button" href="">Войти</a></li>
+                    <li>
+                        <a class="profile-button button" href="">
+                            <svg class="login-icon" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="20px" height="17px" viewBox="0 0 20 17" enable-background="new 0 0 20 17" xml:space="preserve">
+                                <g>
+                                    <polygon points="14.875,8.5 6,0 6,6 0,6 0,11 6,11 6,17   "/>
+                                </g>
+                                <path d="M16.986,15.01h-5.027V17h5.027c2.178,0,3.004-1.81,3.029-3.026V3.028C19.99,1.811,19.164,0,16.986,0h-5.027
+                                    v1.99h5.027c0.839,0,0.992,0.681,1.01,1.057v10.904C17.979,14.327,17.825,15.01,16.986,15.01z"/>
+                            </svg>
+                            Войти
+                        </a>
+                    </li>
                     <li><a class="profile-button button" href="">Регистрация</a></li>
                 </ul>
             </div>
@@ -65,7 +98,7 @@
                 <h2 class="visually-hidden">Промо</h2>
 
                 <div class="first-row">
-                    <div class="promo-item">
+                    <div class="promo-item new">
                         <h3>Материалы</h3>
                         <a href="">На любой вкус</a>
                     </div>
@@ -83,14 +116,16 @@
                         <div class="slide">
                             <h3 class="slide-title">Дрели</h3>
                             <p class="slide-text">Соседям на радость!</p>
-                            <img src="img/promo-slider-1.jpg" width="620" height="266" alt="Дрели">
-                            <a class="slide-link" href="catalog.html">Открыть каталог</a>
+                            <a class="slide-link button" href="catalog.html">Открыть каталог</a>
                         </div>
-                        <div class="slide">
+                        <div class="slide hide">
                             <h3 class="slide-title">Перфораторы</h3>
                             <p class="slide-text">Настоящие мужские игрушки</p>
-                            <img src="img/promo-slider-2.jpg" width="620" height="266" alt="Перфораторы">
-                            <a class="slide-link" href="catalog.html">Открыть каталог</a>
+                            <a class="slide-link button" href="catalog.html">Открыть каталог</a>
+                        </div>
+                        <div class="round-buttons">
+                            <span class="round"></span>
+                            <span class="round active"></span>
                         </div>
                         <button type="button" aria-label="Назад"></button>
                         <button type="button" aria-label="Вперёд"></button>
@@ -113,7 +148,7 @@
             <section class="popular-products">
                 <div class="products-header">
                     <h2>Популярные товары:</h2>
-                    <a href="">Все популярные товары</a>
+                    <a class="button" href="">Все популярные товары</a>
                 </div>
                 
                 <ul class="products">
@@ -125,7 +160,16 @@
                             <img src="img/catalog-item-3.jpg" width="218" height="170" alt="Перфоратор BOSCH BFG 9000">
                         </p>
                         <div class="card-links">
-                            <a class="card-buy" href="">Купить</a>
+                            <a class="card-buy" href="">
+                                <svg class="buy-icon" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="15px" height="15px" viewBox="0 0 15 15" enable-background="new 0 0 15 15" xml:space="preserve">
+                                    <g>
+                                        <circle cx="4.5" cy="13.5" r="1.5"/>
+                                        <circle cx="12.5" cy="13.5" r="1.5"/>
+                                        <polygon points="15,2 4.07,2 3.648,0 0,0 0,2 2.031,2 4.016,11 15,11 15,9 9.441,9 15,6.951   "/>
+                                    </g>
+                                </svg>
+                                Купить
+                            </a>
                             <a class="card-bookmark" href="">В закладки</a>
                         </div>
                         <span class="card-sale">32500 Р.</span> 
@@ -139,7 +183,16 @@
                             <img src="img/catalog-item-1.jpg" width="218" height="170" alt="Перфоратор BOSCH BFG 3000">
                         </p>
                         <div class="card-links">
-                            <a class="card-buy" href="">Купить</a>
+                            <a class="card-buy" href="">
+                                <svg class="buy-icon" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="15px" height="15px" viewBox="0 0 15 15" enable-background="new 0 0 15 15" xml:space="preserve">
+                                    <g>
+                                        <circle cx="4.5" cy="13.5" r="1.5"/>
+                                        <circle cx="12.5" cy="13.5" r="1.5"/>
+                                        <polygon points="15,2 4.07,2 3.648,0 0,0 0,2 2.031,2 4.016,11 15,11 15,9 9.441,9 15,6.951   "/>
+                                    </g>
+                                </svg>
+                                Купить
+                            </a>
                             <a class="card-bookmark" href="">В закладки</a>
                         </div>
                         <span class="card-sale">22500 Р.</span> 
@@ -153,13 +206,22 @@
                             <img src="img/catalog-item-2.jpg" width="218" height="170" alt="Перфоратор BOSCH BFG 6000">
                         </p>
                         <div class="card-links">
-                            <a class="card-buy" href="">Купить</a>
+                            <a class="card-buy" href="">
+                                <svg class="buy-icon" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="15px" height="15px" viewBox="0 0 15 15" enable-background="new 0 0 15 15" xml:space="preserve">
+                                    <g>
+                                        <circle cx="4.5" cy="13.5" r="1.5"/>
+                                        <circle cx="12.5" cy="13.5" r="1.5"/>
+                                        <polygon points="15,2 4.07,2 3.648,0 0,0 0,2 2.031,2 4.016,11 15,11 15,9 9.441,9 15,6.951   "/>
+                                    </g>
+                                </svg>
+                                Купить
+                            </a>
                             <a class="card-bookmark" href="">В закладки</a>
                         </div>
                         <span class="card-sale">30500 Р.</span> 
                         <span class="card-price">25500 Р.</span>
                     </li>
-                    <li class="product-card">
+                    <li class="product-card new">
                         <a href="">
                             <h3 class="card-title">Перфоратор BOSCH BFG 2000</h3>
                         </a>
@@ -167,7 +229,16 @@
                             <img src="img/catalog-item-1.jpg" width="218" height="170" alt="Перфоратор BOSCH BFG 2000">
                         </p>
                         <div class="card-links">
-                            <a class="card-buy" href="">Купить</a>
+                            <a class="card-buy" href="">
+                                <svg class="buy-icon" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="15px" height="15px" viewBox="0 0 15 15" enable-background="new 0 0 15 15" xml:space="preserve">
+                                    <g>
+                                        <circle cx="4.5" cy="13.5" r="1.5"/>
+                                        <circle cx="12.5" cy="13.5" r="1.5"/>
+                                        <polygon points="15,2 4.07,2 3.648,0 0,0 0,2 2.031,2 4.016,11 15,11 15,9 9.441,9 15,6.951   "/>
+                                    </g>
+                                </svg>
+                                Купить
+                            </a>
                             <a class="card-bookmark" href="">В закладки</a>
                         </div>
                         <span class="card-sale">12500 Р.</span> 
@@ -181,46 +252,46 @@
             <section class="popular-producers">
                 <div class="producers-header">
                     <h2>Популярные производители:</h2>
-                    <a href="">Все производители</a>
+                    <a class="button" href="">Все производители</a>
                 </div>
 
-                <ul>
-                    <li>
+                <ul class="producers">
+                    <li class="producer">
                         <a href="">
                             <img src="img/bosch.png" alt="Bosch">
                         </a>
                     </li>
-                    <li>
+                    <li class="producer">
                         <a href="">
                             <img src="img/makita.png" alt="Makita">
                         </a>
                     </li>
-                    <li>
+                    <li class="producer">
                         <a href="">
                             <img src="img/dewalt.png" alt="Dewalt">
                         </a>
                     </li>
-                    <li>
+                    <li class="producer">
                         <a href="">
                             <img src="img/interskol.png" alt="Интерскол">
                         </a>
                     </li>
-                    <li>
+                    <li class="producer">
                         <a href="">
                             <img src="img/hitachi.png" alt="Hitachi">
                         </a>
                     </li>
-                    <li>
+                    <li class="producer">
                         <a href="">
                             <img src="img/lg.png" alt="LG">
                         </a>
                     </li>
-                    <li>
+                    <li class="producer">
                         <a href="">
                             <img src="img/aeg.png" alt="Aeg">
                         </a>
                     </li>
-                    <li>
+                    <li class="producer">
                         <a href="">
                             <img src="img/metabo.png" alt="Metabo">
                         </a>
@@ -238,40 +309,44 @@
                     <p>Хороший интернет-магазин отличается от плохого не только ценами!</p>
                     <p>Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
                 </div>
-                <div class="services-controls">
-                    <ul>
-                        <li>
-                            <button class="active" type="button">Доставка</button>
-                        </li>
-                        <li>
-                            <button type="button">Гарантия</button>
-                        </li>
-                        <li>
-                            <button type="button">Кредит</button>
-                        </li>
-                    </ul>
-                </div>
-                <div class="services-slide">
-                    <h3>Доставка</h3>
-                    <p>Мы с удовольствием доставим ваш товар прямо
-                    к вашему подъезду совершенно бесплатно!</p>
-                    <p>Ведь мы неплохо заработаем,
-                    поднимая его на ваш этаж!</p>
-                </div>
-                <div class="services-slide">
-                    <h3>Гарантия</h3>
-                    <p>Если купленный у нас товар поломается или заискрит,
-                    а также в случае пожара, спровоцированного его возгоранием,
-                    вы всегда можете быть уверены в нашей гарантии. Мы обменяем
-                    сгоревший товар на новый.</p>
-                    <p>Дом уж восстановите как-нибудь сами.</p>
-                </div>
-                <div class="services-slide">
-                    <h3>Кредит</h3>
-                    <p>Залезть в долговую яму стало проще!</p>
-                    <p>Кредитные консультанты придут вам на помощь.</p>
-                    
-                    <a href="">Отправить заявку</a>
+                <div class="services-slider">
+                    <div class="services-controls">
+                        <ul>
+                            <li>
+                                <button class="control active" type="button">Доставка</button>
+                            </li>
+                            <li>
+                                <button class="control" type="button">Гарантия</button>
+                            </li>
+                            <li>
+                                <button class="control" type="button">Кредит</button>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="services-slides">
+                        <div class="services-slide">
+                            <h3>Доставка</h3>
+                            <p>Мы с удовольствием доставим ваш товар прямо<br>
+                            к вашему подъезду совершенно бесплатно!</p>
+                            <p>Ведь мы неплохо заработаем,<br>
+                            поднимая его на ваш этаж!</p>
+                        </div>
+                        <div class="services-slide hide">
+                            <h3>Гарантия</h3>
+                            <p>Если купленный у нас товар поломается или заискрит,<br>
+                            а также в случае пожара, спровоцированного его возгоранием,<br>
+                            вы всегда можете быть уверены в нашей гарантии. Мы обменяем
+                            сгоревший товар на новый.</p>
+                            <p>Дом уж восстановите как-нибудь сами.</p>
+                        </div>
+                        <div class="services-slide hide">
+                            <h3>Кредит</h3>
+                            <p>Залезть в долговую яму стало проще!</p>
+                            <p>Кредитные консультанты придут вам на помощь.</p>
+                            
+                            <a class="button" href="">Отправить заявку</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>

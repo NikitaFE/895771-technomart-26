@@ -95,11 +95,11 @@
                 <h2 class="visually-hidden">Промо</h2>
 
                 <div class="first-row">
-                    <div class="promo-item new">
+                    <div class="promo-item new promo-margin">
                         <h3>Материалы</h3>
                         <a href="">На любой вкус</a>
                     </div>
-                    <div class="promo-item">
+                    <div class="promo-item promo-margin">
                         <h3>Инструмент</h3>
                         <a href="">На все случаи</a>
                     </div>
@@ -110,21 +110,21 @@
                 </div>
                 <div class="second-row">
                     <div class="slider">
+                            <input class="visually-hidden" id="left" name="slider" type="radio">
+                            <input class="visually-hidden" id="right" name="slider" type="radio" checked>
+                        <div class="slide">
+                            <h3 class="slide-title">Перфораторы</h3>
+                            <p class="slide-text">Настоящие мужские игрушки</p>
+                            <a class="slide-link button" href="catalog.html">Открыть каталог</a>
+                        </div>
                         <div class="slide">
                             <h3 class="slide-title">Дрели</h3>
                             <p class="slide-text">Соседям на радость!</p>
                             <a class="slide-link button" href="catalog.html">Открыть каталог</a>
                         </div>
-                        <div class="first-slide slide hide">
-                            <h3 class="slide-title">Перфораторы</h3>
-                            <p class="slide-text">Настоящие мужские игрушки</p>
-                            <a class="slide-link button" href="catalog.html">Открыть каталог</a>
-                        </div>
                         <div class="round-buttons">
-                            <p><input class="visually-hidden" id="left" name="slider" type="radio">
-                            <label class="round-button" for="left"></label></p>
-                            <p><input class="visually-hidden" id="right" name="slider" type="radio" checked>
-                            <label class="round-button" for="right"></label></p>
+                            <label class="left round-button" for="left"></label>
+                            <label class="right round-button" for="right"></label>
                         </div>
                         <button class="left-arrow" type="button" aria-label="Назад"></button>
                         <button class="right-arrow" type="button" aria-label="Вперёд"></button>
@@ -309,16 +309,19 @@
                     <p>Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
                 </div>
                 <div class="services-slider">
+                    <input id="first-service" name="service" type="radio" class="visually-hidden" checked>
+                    <input id="second-service" name="service" type="radio" class="visually-hidden">
+                    <input id="third-service" name="service" type="radio" class="visually-hidden">
                     <div class="services-controls">
                         <ul>
                             <li>
-                                <button data-number="1" class="control active" type="button">Доставка</button>
+                                <label class="control active first-service" for="first-service">Доставка</label>
                             </li>
                             <li>
-                                <button data-number="2" class="control" type="button">Гарантия</button>
+                                <label class="control second-service" for="second-service">Гарантия</label>
                             </li>
                             <li>
-                                <button data-number="3" class="control" type="button">Кредит</button>
+                                <label class="control third-service" for="third-service">Кредит</label>
                             </li>
                         </ul>
                     </div>
@@ -487,8 +490,9 @@
         var userText = document.querySelector('[name="text"]');
         var form = document.querySelector('.write-form');
         var slider = document.querySelector('.slider');
-        var firstSlide = document.querySelector('.first-slide');
-        var roundBtns = document.querySelectorAll('.round');
+        var leftInput = document.querySelector('#left');
+        var rightInput = document.querySelector('#right');
+        var controls = document.querySelectorAll('.control');
         var isStorageSupport = true;
         var storage = "";
 
@@ -557,15 +561,11 @@
         slider.addEventListener('click', function (evt) {
             if(evt.target.classList.contains('left-arrow')) {
                 evt.preventDefault();
-                firstSlide.classList.remove('hide');
-                roundBtns[0].classList.add('active');
-                roundBtns[1].classList.remove('active');
+                leftInput.checked = true;
             }
             if(evt.target.classList.contains('right-arrow')) {
                 evt.preventDefault();
-                firstSlide.classList.add('hide');
-                roundBtns[0].classList.remove('active');
-                roundBtns[1].classList.add('active');
+                rightInput.checked = true;
             }
         });
     </script>

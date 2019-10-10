@@ -509,12 +509,35 @@
         <p>Товар добавлен в корзину!</p>
         <ul class="checkout-buttons">
             <li><a class="checkout-button button" href="">Оформить заказ</a></li>
-            <li><a class="checkout-button button" href="">Продолжить покупки</a></li>
+            <li><a class="checkout-button button continue" href="">Продолжить покупки</a></li>
         </ul>
         <button class="close" type="button"><span class="visually-hidden">Закрыть</span></button>
     </div>
 
-    <script></script>
+    <script>
+        var products = document.querySelector('.products');
+        var popup = document.querySelector('.checkout');
+
+        products.addEventListener('click', function (evt) {
+            var target = evt.target;
+
+            if(target.classList.contains('card-buy')) {
+                evt.preventDefault();
+                popup.classList.remove('hide');
+            };
+        });
+
+        popup.addEventListener('click', function (evt) {
+            var target = evt.target;
+
+            if (target.classList.contains('close')) {
+                popup.classList.add('hide');
+            } else if (target.classList.contains('continue')) {
+                evt.preventDefault();
+                popup.classList.add('hide');
+            };
+        });
+    </script>
 </body>
 
 </html>

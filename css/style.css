@@ -283,6 +283,7 @@ input[type="radio"].visually-hidden {
 	font-style: italic;
 	font-size: 16px;
 	line-height: 23px;
+	white-space: pre-wrap;
 	color: #ee3643;
 }
 
@@ -475,6 +476,7 @@ li:not(:last-child) .profile-link::before {
 .nav-list {
 	display: flex;
 	justify-content: flex-start;
+	flex-wrap: wrap;
 	margin: 0;
 	padding: 0 20px;
 
@@ -1012,8 +1014,17 @@ input[name="service"]:nth-child(3):checked ~ .services-controls .third-service {
 	font-size: 13px;
 	line-height: 24px;
 	font-family: "PT Sans", Arial, sans-serif;
+	white-space: pre-wrap;
 	letter-spacing: 0.004em;
 	color: #000000;
+}
+
+.deliver-text {
+	width: 280px;
+}
+
+.deliver-text:last-child {
+	width: 175px;
 }
 
 .services-slides {

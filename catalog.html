@@ -457,7 +457,7 @@
         <div class="container">
             <div class="footer-top">
                 <a class="footer-logo" href="index.html">
-                    <img src="img/logo-technomart.svg" width="136.5" height="21.59" alt="Логотип магазина 'Техномарт'">
+                    <img src="img/logo-technomart.svg" width="137" height="22" alt="Логотип магазина 'Техномарт'">
                 </a>
                 <nav>
                     <ul class="footer-nav">
@@ -520,30 +520,7 @@
         <button class="close" type="button"><span class="visually-hidden">Закрыть</span></button>
     </div>
 
-    <script>
-        var products = document.querySelector('.products');
-        var popup = document.querySelector('.checkout');
-
-        products.addEventListener('click', function (evt) {
-            var target = evt.target;
-
-            if(target.classList.contains('card-buy')) {
-                evt.preventDefault();
-                popup.classList.remove('hide');
-            };
-        });
-
-        popup.addEventListener('click', function (evt) {
-            var target = evt.target;
-
-            if (target.classList.contains('close')) {
-                popup.classList.add('hide');
-            } else if (target.classList.contains('continue')) {
-                evt.preventDefault();
-                popup.classList.add('hide');
-            };
-        });
-    </script>
+    <script src="js/main-min.js"></script>
 </body>
 
 </html>

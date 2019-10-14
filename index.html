@@ -7,7 +7,7 @@
     <link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700&display=swap&subset=cyrillic" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap&subset=cyrillic" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-min.css">
 </head>
 
 <body>
@@ -324,8 +324,8 @@
                     <div class="services-slides">
                         <div class="services-slide">
                             <h3>Доставка</h3>
-                            <p class="deliver-text">Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно!</p>
-                            <p class="deliver-text">Ведь мы неплохо заработаем, поднимая его на ваш этаж!</p>
+                            <p class="delivery-text">Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно!</p>
+                            <p class="delivery-text">Ведь мы неплохо заработаем, поднимая его на ваш этаж!</p>
                         </div>
                         <div class="services-slide hide">
                             <h3>Гарантия</h3>
@@ -334,8 +334,7 @@
                         </div>
                         <div class="services-slide hide">
                             <h3>Кредит</h3>
-                            <p>Залезть в долговую яму стало проще!</p>
-                            <p>Кредитные консультанты придут вам на помощь.</p>
+                            <p class="credit-text">Залезть в долговую яму стало проще! Кредитные консультанты придут вам на помощь.</p>
                             
                             <a class="button" href="">Отправить заявку</a>
                         </div>
@@ -382,7 +381,7 @@
         <div class="container">
             <div class="footer-top">
                 <a class="footer-logo" href="index.html">
-                    <img src="img/logo-technomart.svg" width="136.5" height="21.59" alt="Логотип магазина 'Техномарт'">
+                    <img src="img/logo-technomart.svg" width="137" height="22" alt="Логотип магазина 'Техномарт'">
                 </a>
                 <nav>
                     <ul class="footer-nav">
@@ -467,99 +466,7 @@
         <button class="close-map close" type="button"><span class="visually-hidden">Закрыть</span></button>
     </div>
 
-    <script>
-        "use strict";
-
-        var openMap = document.querySelector('.map-icon');
-        var closeMap = document.querySelector('.close-map');
-        var map = document.querySelector('.main-map');
-        var openWrite = document.querySelector('.write-open');
-        var closeWrite = document.querySelector('.close-write');
-        var write = document.querySelector('.write-us');
-        var userName = document.querySelector('[name="name"]');
-        var userEmail = document.querySelector('[name="email"]');
-        var userText = document.querySelector('[name="text"]');
-        var form = document.querySelector('.write-form');
-        var slider = document.querySelector('.slider');
-        var leftInput = document.querySelector('#left');
-        var rightInput = document.querySelector('#right');
-        var controls = document.querySelectorAll('.control');
-        var isStorageSupport = true;
-        var storage = "";
-
-
-        try {
-            storage = localStorage.getItem("userName");
-        } catch (err) {
-            isStorageSupport = false;
-        }
-
-        openMap.addEventListener('click', function(evt) {
-            evt.preventDefault();
-            map.classList.remove('hide');
-            closeMap.focus();
-        });
-
-        closeMap.addEventListener('click', function(evt) {
-            evt.preventDefault();
-            map.classList.add('hide');
-        });
-
-        window.addEventListener("keydown", function (evt) {
-            if (evt.keyCode === 27) {
-                evt.preventDefault();
-                map.classList.add("hide");
-            }
-        });
-
-        openWrite.addEventListener('click', function(evt) {
-            evt.preventDefault();
-            write.classList.remove('hide');
-
-            if (storage) {
-                userName.value = storage;
-                userEmail.focus();
-            } else {
-                userName.focus();
-            }
-        });
-
-        closeWrite.addEventListener('click', function(evt) {
-            evt.preventDefault();
-            write.classList.add('hide');
-            write.classList.remove("modal-error");
-        });
-
-        window.addEventListener("keydown", function (evt) {
-            if (evt.keyCode === 27) {
-                evt.preventDefault();
-                write.classList.add("hide");
-                write.classList.remove("modal-error");
-            }
-        });
-
-        form.addEventListener("submit", function (evt) {
-            if(!userName.value || !userEmail.value || !userText.value) {
-                evt.preventDefault();
-                write.classList.add("modal-error");
-            } else {
-                if (isStorageSupport) {
-                    localStorage.setItem("userName", userName.value);
-                }
-            }
-        });
-
-        slider.addEventListener('click', function (evt) {
-            if(evt.target.classList.contains('left-arrow')) {
-                evt.preventDefault();
-                leftInput.checked = true;
-            }
-            if(evt.target.classList.contains('right-arrow')) {
-                evt.preventDefault();
-                rightInput.checked = true;
-            }
-        });
-    </script>
+    <script src="js/main-min.js"></script>
 </body>
 
 </html>
